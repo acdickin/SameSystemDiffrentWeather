@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameSystemDiffrentWeather", "SameSystemDiffrentWeather\SameSystemDiffrentWeather.csproj", "{57D87689-206B-496B-9078-ED99A39BF3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameSystemDiffrentWeather.Tests", "SameSystemDiffrentWeather.Tests\SameSystemDiffrentWeather.Tests.csproj", "{07A2F0F2-D359-46AB-9B11-314F2AB9B9D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D87689-206B-496B-9078-ED99A39BF3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D87689-206B-496B-9078-ED99A39BF3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D87689-206B-496B-9078-ED99A39BF3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D87689-206B-496B-9078-ED99A39BF3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A2F0F2-D359-46AB-9B11-314F2AB9B9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A2F0F2-D359-46AB-9B11-314F2AB9B9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A2F0F2-D359-46AB-9B11-314F2AB9B9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A2F0F2-D359-46AB-9B11-314F2AB9B9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7FCA2E3-EFD4-462E-9A57-C69474D9520E}
+	EndGlobalSection
+EndGlobal
