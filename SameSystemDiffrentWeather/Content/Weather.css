@@ -1,0 +1,40 @@
+﻿body {
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    font-family: Star4000;
+    padding:0;
+}
+
+.weather-header {
+    background-color: grey;
+    text-align: center;
+    display:block;
+}
+.navbar-weather-brand {
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-weather-brand:hover {
+    color: red;
+}
+#bContent {
+    background-color:darkred;
+    padding:80px;
+    margin:20px;
+}
+#bFooter {
+    background-color:Highlight;
+    padding:0 30px;
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+
+#bDate {
+}
+#bTime{
+    float:right;
+    
+}

@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using SameSystemDiffrentWeather.Filters;
+using System.Web;
 using System.Web.Mvc;
 
 namespace SameSystemDiffrentWeather
@@ -8,6 +9,7 @@ namespace SameSystemDiffrentWeather
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new MyLoggingFilterAttribute());
         }
     }
 }

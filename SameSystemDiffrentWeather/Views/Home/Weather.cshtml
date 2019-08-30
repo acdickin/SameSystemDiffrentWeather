@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Weather";
+    Layout = "_WeatherLayout.cshtml";
+    var date = DateTime.Now.ToString("ddd MMM dd").ToUpper();
+    var time = DateTime.Now.ToString("hh:mm:ss tt");
+}
+
+<div id="brandonPage">
+    <!--
+
+            LOOKS LIKE A STORM IS COMING IN................
+
+                                      000      00
+                               0000000   0000
+                  0      00  00000000000000000
+                0000 0  000000000000000000000000       0
+             000000000000000000000000000000000000000 000
+            0000000000000000000000000000000000000000000000
+        000000000000000000000000000000000000000000000000
+    00000000000000000000000000000000000000000000000000000000
+                  / / / / / / / / / / / / / / / /
+                / / / / / / / / / / / / / / /
+                / / / / / / / / / / / / / / /
+              / / / / / / / / / / / / / /
+              / / / / / / / / / / / / /
+            / / / / / / / / / / / /
+            / / / / / / / / / /
+
+             ...........IT'S RAINING AGAIN.
+
+                -->
+    <div id="bContent">
+        <p>
+            WEATHER STORM WARNING
+        </p>
+        <p>
+            Et harum quidem rerum facilis est et expedita distinctio. Esse cillum dolore eu fugiat nulla pariatur. Non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+        </p>
+        <p>
+            <strong>Nam libero tempore</strong>, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat. Cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia. Fugiat quo voluptas nulla pariatur?
+        </p>
+</div>
+    <div id="bFooter">
+        <div id="bDateTime">
+            <span id="bDate"> @date</span>
+            <span id="bTime"> @time </span>
+        </div>
+        <p>Wind: S 4000 MPH</p>
+    </div>
+</div>
+

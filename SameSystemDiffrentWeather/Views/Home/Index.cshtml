@@ -1,31 +1,33 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    ViewBag.Headline = "";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+<div class="jumbotron" style="
+    background-image: url('../../images/glitch2.jpg');
+    background-size: 100%;
+">
+    <h1 >@ViewBag.Headline</h1>
+    <p class="lead">Learn all about our band, check out events and go to the back stage!</p>
     <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
-
+<img class="img-responsive img-rounded" src="~/images/bear.jpg" style="margin:0 auto"/>
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Blog</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Getting Latest news
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p><a class="btn btn-info" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>Events</h2>
+        <p>Schedule of where the band will be playing</p>
+        <p><a class="btn btn-warning" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Go BackStage</h2>
+        <p>Join us before the show and see what's going on. Make sure you get your tickets early</p>
+        <p><a class="btn btn-danger" href="backstage/special">Learn more &raquo;</a></p>
     </div>
 </div>
